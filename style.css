@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(33, 33, 136);
+}
+
+.turt {
+    position: relative;
+    --x: 10px;
+    --y: 10px;
+    --rotate: 0;
+    --rotateX: 0;
+    transform: translateX(var(--x)) translateY(var(--y)) rotateY(var(--rotateX))  rotate(var(--rotate)) ;
+    transition: transform 0.3s;
+}
